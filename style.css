@@ -25,12 +25,15 @@ h1 {
 }
 
 .video-container {
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 9 / 16;
   margin-bottom: 20px;
+  background: #000;
+  border-radius: 20px;
   background: #111;
   border-radius: 20px;
+  overflow: hidden;
+  position: relative;
 }
-
 .cta-button {
   display: none;
   background: #00c76d;
